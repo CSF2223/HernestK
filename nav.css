@@ -12,8 +12,8 @@
 .logo {
     font-size: 2.2rem;
     margin: 0.75rem 2.5rem;
-    color: #c5b358;
-    font-family: "Fancing Script", cursive;
+    color: #8D9EFF;
+    font-family: "Sono", sans-serif;
 }
 
 .navbar-links ul {
@@ -25,13 +25,13 @@
 .navbar-links li {
     list-style: none;
     padding: 1rem;
-
     font-size: 1.2rem;
+    
 }
 
 .navbar-links li a {
     text-decoration: none;
-    color: #fff;
+    color: #8D9EFF;
     padding: 0.5rem 2rem;
     display: block;
 }
@@ -64,6 +64,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #8D9EFF; /* this adds color to the dividers so I can match my theme.*/
 }
 
 .bottomNav li {
@@ -72,9 +73,9 @@
     padding: 0 0.5rem;
 }
 
-.bottomNav li a {
+.bottomNav li a { /* this is where home, projects, blog etc is at the bottom*/
     text-decoration: none;
-    color: #c5b358;
+    color: #8D9EFF;
     display: block;
 }
 

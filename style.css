@@ -1,16 +1,18 @@
 /*
 Color Palette
-background color: #200439
+background color: #00005C
 primary: #512C73
 secondary: #361356
 tertiary: #6F4D8F
 accent: #9277AC
-vegasGold: #c5b358
+Textcolor: #8D9EFF this is my text color
 white: #fff
 black: #000  
+some of the colors that I'm using isn't in the palette note for this cooment
+I'll find each new individual ones im using
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400&display=swap");
+@import url("htps://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;600;700&display=swap");
 
 html {
@@ -20,10 +22,10 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Sono", sans-serif;
     font-weight: 300;
-    background-color: #200439;
-    color: #c5b358;
+    background-color: #00005C;
+    color: #8D9EFF;
 }
 
 .hero {
@@ -52,8 +54,8 @@ body {
     letter-spacing: 5px;
 }
 
-.heroName {
-    color: #c5b358;
+.heroName { /* it is my name "Hernest"*/
+    color: #8D9EFF;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -83,8 +85,8 @@ body {
 }
 
 .button:hover {
-    background-color: #361356;
-    color: #c5b358;
+    background-color: #B9E0FF;
+    color: #6C4AB6;
     transform: scale(1.5);
     /* (150% zoom - Note: if any zoom is too large it will 
     go outside of the viewport) */
@@ -153,7 +155,7 @@ footer {
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
-    color: #c5b358;
+    color: #8D9EFF;
     display: block;
 }
 
