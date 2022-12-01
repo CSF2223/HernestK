@@ -168,6 +168,11 @@ footer {
     height: 80vh;
 }
 
+    .Mytext {
+        display: flex;
+        justify-content: center;
+    }
+
 @media (min-width: 900px) {
     .hero {
         flex-direction: row;
@@ -199,5 +204,7 @@ footer {
         width: 25%;
     }
 }
+
+
 
 /* my repository */
