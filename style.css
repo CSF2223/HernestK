@@ -167,11 +167,12 @@ footer {
     margin: 0;
     height: 80vh;
 }
-
-    .Mytext {
+    /* my about me*/
+    .me {
         display: flex;
         justify-content: center;
     }
+    /* about me end*/
 
 @media (min-width: 900px) {
     .hero {
