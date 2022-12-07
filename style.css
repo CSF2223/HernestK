@@ -100,7 +100,7 @@ body {
 }
 
 .projectCard {
-    background-color: #fff;
+    background-color:  rgb(120, 120, 170);
     color: #200439;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
@@ -167,12 +167,16 @@ footer {
     margin: 0;
     height: 80vh;
 }
-    /* my about me*/
+/* about me */
     .me {
-        display: flex;
-        justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100;
+    height: 50vh;
     }
-    /* about me end*/
+/*about me*/
 
 @media (min-width: 900px) {
     .hero {
@@ -181,6 +185,7 @@ footer {
         align-items: center;
         height: 90vh;
     }
+    /*about me*/
     
     .heroText {
         font-size: 1rem;
@@ -201,7 +206,7 @@ footer {
         flex-wrap: wrap;
     }
     
-    .projectCard {
+    .projectCard { 
         width: 25%;
     }
 }
