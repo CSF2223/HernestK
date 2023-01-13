@@ -29,20 +29,19 @@ body {
 }
 
 .hero {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .heroImage {
     padding: 2rem;
+    text-align: center;
     
 }
 
-.heroImage img {
+img {
     border-radius: 6rem;
-    box-shadow: 10px 10px #000;
+    box-shadow: 8px 8px #000;
     width: 60%;
     height: auto;
 }
@@ -132,7 +131,7 @@ body {
 .projectIcons p {
     margin: 0 0 2rem 0;
     font-size: 0.8rem;
-} /* there is some troubleshoot. there is no "projectIcons for html therefore no style wass applied"*/
+}
 
 .fa-github {
     font-size: 2.2rem;
@@ -165,27 +164,32 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0;
-    height: 80vh;
+    height: 70vh;
 }
-/* about me */
+
     .me {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 100;
-    height: 50vh;
+    height: 85;
     }
-/*about me*/
+    
+    .theAboutMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 
 @media (min-width: 900px) {
     .hero {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         height: 90vh;
     }
-    /*about me*/
     
     .heroText {
         font-size: 1rem;
